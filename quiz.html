@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Week 8 – Leadership Personality Quiz</title>
+    <link rel="stylesheet" href="style.q.css">
+</head>
+
+<body class="quiz-page">
+    <div class="quiz-container">
+        <h1>Leadership Personality Quiz</h1>
+        <p class="subtitle">Find out what kind of leader you are!</p>
+
+        <form id="quizForm">
+            <div class="question">
+                <p>1. When facing a new challenge, you usually:</p>
+                <label><input type="radio" name="q1" value="visionary"> Look for new creative solutions</label><br>
+                <label><input type="radio" name="q1" value="organized"> Make a detailed plan first</label><br>
+                <label><input type="radio" name="q1" value="empathetic"> Ask teammates for opinions</label>
+            </div>
+
+            <div class="question">
+                <p>2. Your team is struggling — you:</p>
+                <label><input type="radio" name="q2" value="empathetic"> Listen and motivate them</label><br>
+                <label><input type="radio" name="q2" value="organized"> Reassign roles for efficiency</label><br>
+                <label><input type="radio" name="q2" value="visionary"> Inspire them with a new vision</label>
+            </div>
+
+            <div class="question">
+                <p>3. What motivates you the most?</p>
+                <label><input type="radio" name="q3" value="organized"> Achieving clear, structured goals</label><br>
+                <label><input type="radio" name="q3" value="visionary"> Seeing innovative ideas come alive</label><br>
+                <label><input type="radio" name="q3" value="empathetic"> Helping others grow and succeed</label>
+            </div>
+            <button type="submit" id="submitQuiz">See My Result</button>
+        </form>
+        <div id="resultBox" class="result-box"></div>
+    </div>
+    <script src="script.q.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/* Student info page styling */
+.student-page {
+    font-family: Arial, sans-serif;
+    background-color: #f9fbff;
+    color: #333;
+    margin: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 3px solid #1a73e8;
+    padding-bottom: 10px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.info-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.profile-photo {
+    width: 180px;
+    border-radius: 8px;
+    border: 2px solid #1a73e8;
+}
+
+.details-section table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.details-section th {
+    text-align: left;
+    padding: 6px 10px;
+    background-color: #e8f0fe;
+    width: 180px;
+    border-bottom: 1px solid #ccc;
+}
+
+.details-section td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+}

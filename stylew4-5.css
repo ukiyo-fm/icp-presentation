@@ -1,0 +1,57 @@
+/* ----------- RESPONSIVE DESIGN (Week 5) ----------- */
+
+/* For tablets and small laptops */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-photo {
+        width: 130px;
+        margin-bottom: 10px;
+    }
+
+    .info-table {
+        width: 100%;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .portal-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sidebar {
+        padding: 10px;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+
+    .footer {
+        font-size: 0.8em;
+    }
+}

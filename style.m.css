@@ -1,0 +1,59 @@
+/* Motivation Generator Page */
+.motivation-page {
+    background: linear-gradient(135deg, #e8f0fe, #ffffff);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motivation-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.motivation-container h1 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.quote-box {
+    background-color: #f1f5ff;
+    border-left: 5px solid #1a73e8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    min-height: 100px;
+}
+
+#quote {
+    font-style: italic;
+    color: #333;
+    font-size: 16px;
+}
+
+#newQuoteBtn {
+    background-color: #1a73e8;
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#newQuoteBtn:hover {
+    background-color: #0d5fcc;
+}

@@ -1,0 +1,77 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 40px;
+}
+
+/* Headings */
+.title {
+    color: #1a73e8;
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+.intro {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Table styling */
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.schedule th {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px;
+}
+
+.schedule td {
+    background-color: #e8f0fe;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Form styling */
+.contact-form input,
+.contact-form textarea {
+    width: 60%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #155ab6;
+}
+
+/* Reflection paragraph */
+.reflection {
+    margin-top: 40px;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+}
